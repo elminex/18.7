@@ -7,7 +7,7 @@ let Contacts = React.createClass({
             return <Contact item={contact} key={contact.id} />
         });
         return (
-            <ul className={'contactsList' }>{contacts}</ul>
+            <ul className="contactsList">{contacts}</ul>
         );
     }
 });
